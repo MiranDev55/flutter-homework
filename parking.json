@@ -369,6 +369,80 @@
         "phone": "555-707-8080",
         "email": "contact@harborviewunderground.com"
       }
+    },
+    {
+      "id": "011",
+      "name": "City Hall Central Lot",
+      "location": {
+        "address": "505 Public Square, Civic Center, CC 50505",
+        "latitude": 39.952583,
+        "longitude": -75.165222
+      },
+      "type": "lot",
+      "capacity": 150,
+      "availableSpaces": 50,
+      "accessibility": {
+        "handicapSpaces": 7,
+        "elevator": false
+      },
+      "hoursOfOperation": {
+        "mondayToFriday": "24 hours",
+        "saturday": "24 hours",
+        "sunday": "24 hours"
+      },
+      "price": {
+        "hourlyRate": 5,
+        "dailyRate": 20
+      },
+      "paymentOptions": [ "Cash", "Credit Card" ],
+      "security": "Nightly Security Patrol",
+      "facilities": {
+        "EVChargingStations": 3,
+        "BikeRacks": false,
+        "CarWash": false
+      },
+      "restrictions": "No Commercial Vehicles",
+      "contactInformation": {
+        "phone": "555-909-0101",
+        "email": "parking@cityhallcentral.com"
+      }
+    },
+    {
+      "id": "012",
+      "name": "Uptown Premium Garage",
+      "location": {
+        "address": "606 High Street, Uptown, UT 60606",
+        "latitude": 40.748817,
+        "longitude": -73.985428
+      },
+      "type": "garage",
+      "capacity": 500,
+      "availableSpaces": 200,
+      "accessibility": {
+        "handicapSpaces": 20,
+        "elevator": true
+      },
+      "hoursOfOperation": {
+        "mondayToFriday": "5:00 AM - 12:00 AM",
+        "saturday": "5:00 AM - 2:00 AM",
+        "sunday": "7:00 AM - 11:00 PM"
+      },
+      "price": {
+        "hourlyRate": 10,
+        "dailyRate": 40
+      },
+      "paymentOptions": [ "Credit Card", "Mobile Payment", "Smart Card" ],
+      "security": "24/7 Surveillance Cameras and Security Personnel",
+      "facilities": {
+        "EVChargingStations": 20,
+        "BikeRacks": true,
+        "CarWash": true
+      },
+      "restrictions": "Max Vehicle Height: 2.0m",
+      "contactInformation": {
+        "phone": "555-121-2121",
+        "email": "info@uptownpremiumgarage.com"
+      }
     }
     // Additional parking facilities would be listed here...
   ]
