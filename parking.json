@@ -1,0 +1,375 @@
+{
+  "parkingFacilities": [
+    {
+      "id": "001",
+      "name": "Central City Parking",
+      "location": {
+        "address": "123 Main St, Anytown, AN 12345",
+        "latitude": 40.712776,
+        "longitude": -74.005974
+      },
+      "type": "garage",
+      "capacity": 500,
+      "availableSpaces": 150,
+      "accessibility": {
+        "handicapSpaces": 10,
+        "elevator": true
+      },
+      "hoursOfOperation": {
+        "mondayToFriday": "7:00 AM - 10:00 PM",
+        "saturday": "8:00 AM - 11:00 PM",
+        "sunday": "9:00 AM - 8:00 PM"
+      },
+      "price": {
+        "hourlyRate": 5,
+        "dailyRate": 20
+      },
+      "paymentOptions": [ "Cash", "Credit Card" ],
+      "security": "24/7 Surveillance Cameras",
+      "facilities": {
+        "EVChargingStations": 5,
+        "BikeRacks": true,
+        "CarWash": false
+      },
+      "restrictions": "Max Vehicle Height: 2.1m",
+      "contactInformation": {
+        "phone": "123-456-7890",
+        "email": "info@centralcityparking.com"
+      }
+    },
+    {
+      "id": "002",
+      "name": "East Plaza Parking",
+      "location": {
+        "address": "422 Maple St, Rivertown, RT 64001",
+        "latitude": 38.084783,
+        "longitude": -113.496289
+      },
+      "type": "lot",
+      "capacity": 206,
+      "availableSpaces": 27,
+      "accessibility": {
+        "handicapSpaces": 10,
+        "elevator": false
+      },
+      "hoursOfOperation": {
+        "mondayToFriday": "7:00 AM - 9:00 PM",
+        "saturday": "8:00 AM - 9:00 PM",
+        "sunday": "9:00 AM - 7:00 PM"
+      },
+      "price": {
+        "hourlyRate": 5,
+        "dailyRate": 17
+      },
+      "paymentOptions": [ "Cash", "Mobile" ],
+      "security": "Patrolled Security",
+      "facilities": {
+        "EVChargingStations": 5,
+        "BikeRacks": true,
+        "CarWash": true
+      },
+      "restrictions": "Max Vehicle Height: 2.0m",
+      "contactInformation": {
+        "phone": "731-531-1882",
+        "email": "gaadkzn@parking.com"
+      }
+    },
+    {
+      "id": "003",
+      "name": "North Mall Parking",
+      "location": {
+        "address": "932 Maple St, Hillvale, RT 79119",
+        "latitude": 36.172827,
+        "longitude": -83.604366
+      },
+      "type": "garage",
+      "capacity": 627,
+      "availableSpaces": 266,
+      "accessibility": {
+        "handicapSpaces": 6,
+        "elevator": false
+      },
+      "hoursOfOperation": {
+        "mondayToFriday": "8:00 AM - 10:00 PM",
+        "saturday": "8:00 AM - 11:00 PM",
+        "sunday": "10:00 AM - 7:00 PM"
+      },
+      "price": {
+        "hourlyRate": 4,
+        "dailyRate": 19
+      },
+      "paymentOptions": [ "Cash", "Mobile" ],
+      "security": "Patrolled Security",
+      "facilities": {
+        "EVChargingStations": 7,
+        "BikeRacks": false,
+        "CarWash": false
+      },
+      "restrictions": "Max Vehicle Height: 2.1m",
+      "contactInformation": {
+        "phone": "446-339-1513",
+        "email": "rnisboy@parking.com"
+      }
+    },
+    {
+      "id": "004",
+      "name": "West Station Parking",
+      "location": {
+        "address": "116 Pine St, Brighton, BN 19980",
+        "latitude": 40.052518,
+        "longitude": -74.245062
+      },
+      "type": "lot",
+      "capacity": 881,
+      "availableSpaces": 477,
+      "accessibility": {
+        "handicapSpaces": 11,
+        "elevator": false
+      },
+      "hoursOfOperation": {
+        "mondayToFriday": "8:00 AM - 9:00 PM",
+        "saturday": "9:00 AM - 11:00 PM",
+        "sunday": "8:00 AM - 9:00 PM"
+      },
+      "price": {
+        "hourlyRate": 7,
+        "dailyRate": 15
+      },
+      "paymentOptions": [ "Mobile", "Cash" ],
+      "security": "Patrolled Security",
+      "facilities": {
+        "EVChargingStations": 10,
+        "BikeRacks": true,
+        "CarWash": false
+      },
+      "restrictions": "Max Vehicle Height: 2.0m",
+      "contactInformation": {
+        "phone": "758-400-7649",
+        "email": "ylgnubh@parking.com"
+      }
+    },
+    {
+      "id": "005",
+      "name": "Riverside Parking Plaza",
+      "location": {
+        "address": "456 River Rd, Rivertown, RT 67890",
+        "latitude": 36.162664,
+        "longitude": -86.781602
+      },
+      "type": "outdoor",
+      "capacity": 300,
+      "availableSpaces": 100,
+      "accessibility": {
+        "handicapSpaces": 15,
+        "elevator": false
+      },
+      "hoursOfOperation": {
+        "mondayToFriday": "6:00 AM - 11:00 PM",
+        "saturday": "7:00 AM - 12:00 AM",
+        "sunday": "8:00 AM - 9:00 PM"
+      },
+      "price": {
+        "hourlyRate": 4,
+        "dailyRate": 18
+      },
+      "paymentOptions": [ "Credit Card", "Mobile Payment" ],
+      "security": "Patrolled Security",
+      "facilities": {
+        "EVChargingStations": 8,
+        "BikeRacks": false,
+        "CarWash": true
+      },
+      "restrictions": "Max Vehicle Height: 2.5m",
+      "contactInformation": {
+        "phone": "987-654-3210",
+        "email": "contact@riversideparking.com"
+      }
+    },
+    {
+      "id": "006",
+      "name": "Metro Multilevel",
+      "location": {
+        "address": "789 Metro Blvd, Metrocity, MT 54321",
+        "latitude": 34.052234,
+        "longitude": -118.243685
+      },
+      "type": "multi-story",
+      "capacity": 800,
+      "availableSpaces": 250,
+      "accessibility": {
+        "handicapSpaces": 20,
+        "elevator": true
+      },
+      "hoursOfOperation": {
+        "mondayToFriday": "5:00 AM - 12:00 AM",
+        "saturday": "5:00 AM - 1:00 AM",
+        "sunday": "6:00 AM - 10:00 PM"
+      },
+      "price": {
+        "hourlyRate": 6,
+        "dailyRate": 25
+      },
+      "paymentOptions": [ "Cash", "Credit Card", "Mobile Payment" ],
+      "security": "24/7 Security Personnel",
+      "facilities": {
+        "EVChargingStations": 12,
+        "BikeRacks": true,
+        "CarWash": true
+      },
+      "restrictions": "Max Vehicle Height: 2.2m",
+      "contactInformation": {
+        "phone": "321-987-6543",
+        "email": "info@metromultilevel.com"
+      }
+    },
+    {
+      "id": "007",
+      "name": "Downtown Open Air Lot",
+      "location": {
+        "address": "101 City Square, Downtown, DT 10101",
+        "latitude": 37.774929,
+        "longitude": -122.419416
+      },
+      "type": "lot",
+      "capacity": 200,
+      "availableSpaces": 80,
+      "accessibility": {
+        "handicapSpaces": 5,
+        "elevator": false
+      },
+      "hoursOfOperation": {
+        "mondayToFriday": "24 hours",
+        "saturday": "24 hours",
+        "sunday": "24 hours"
+      },
+      "price": {
+        "hourlyRate": 3,
+        "dailyRate": 15
+      },
+      "paymentOptions": [ "Cash", "Mobile Payment" ],
+      "security": "Patrolled Security",
+      "facilities": {
+        "EVChargingStations": 2,
+        "BikeRacks": false,
+        "CarWash": false
+      },
+      "restrictions": "No Restrictions",
+      "contactInformation": {
+        "phone": "555-101-2020",
+        "email": "support@downtownlot.com"
+      }
+    },
+    {
+      "id": "008",
+      "name": "Tech Park Basement Parking",
+      "location": {
+        "address": "202 Innovation Drive, Techville, TV 20202",
+        "latitude": 33.448377,
+        "longitude": -112.074037
+      },
+      "type": "basement",
+      "capacity": 400,
+      "availableSpaces": 120,
+      "accessibility": {
+        "handicapSpaces": 12,
+        "elevator": true
+      },
+      "hoursOfOperation": {
+        "mondayToFriday": "6:00 AM - 10:00 PM",
+        "saturday": "8:00 AM - 10:00 PM",
+        "sunday": "Closed"
+      },
+      "price": {
+        "hourlyRate": 7,
+        "dailyRate": 30
+      },
+      "paymentOptions": [ "Credit Card", "Mobile Payment", "Smart Card" ],
+      "security": "24/7 Surveillance Cameras and Security Personnel",
+      "facilities": {
+        "EVChargingStations": 10,
+        "BikeRacks": true,
+        "CarWash": true
+      },
+      "restrictions": "Max Vehicle Height: 2.0m",
+      "contactInformation": {
+        "phone": "555-303-4040",
+        "email": "parking@techpark.com"
+      }
+    },
+    {
+      "id": "009",
+      "name": "Greenfield Parking Meadows",
+      "location": {
+        "address": "303 Greenway Drive, Greenfield, GF 30303",
+        "latitude": 35.467560,
+        "longitude": -97.516428
+      },
+      "type": "surface",
+      "capacity": 250,
+      "availableSpaces": 90,
+      "accessibility": {
+        "handicapSpaces": 8,
+        "elevator": false
+      },
+      "hoursOfOperation": {
+        "mondayToFriday": "5:00 AM - 11:00 PM",
+        "saturday": "6:00 AM - 12:00 AM",
+        "sunday": "6:00 AM - 10:00 PM"
+      },
+      "price": {
+        "hourlyRate": 2,
+        "dailyRate": 10
+      },
+      "paymentOptions": [ "Cash", "Credit Card", "Mobile Payment" ],
+      "security": "Nightly Security Patrol",
+      "facilities": {
+        "EVChargingStations": 4,
+        "BikeRacks": true,
+        "CarWash": false
+      },
+      "restrictions": "No RVs or Trailers",
+      "contactInformation": {
+        "phone": "555-505-6060",
+        "email": "info@greenfieldmeadows.com"
+      }
+    },
+    {
+      "id": "010",
+      "name": "Harbor View Underground",
+      "location": {
+        "address": "404 Harbor View Road, Seaside, SS 40404",
+        "latitude": 32.715738,
+        "longitude": -117.161084
+      },
+      "type": "underground",
+      "capacity": 350,
+      "availableSpaces": 140,
+      "accessibility": {
+        "handicapSpaces": 10,
+        "elevator": true
+      },
+      "hoursOfOperation": {
+        "mondayToFriday": "24 hours",
+        "saturday": "24 hours",
+        "sunday": "24 hours"
+      },
+      "price": {
+        "hourlyRate": 8,
+        "dailyRate": 32
+      },
+      "paymentOptions": [ "Credit Card", "Smart Card" ],
+      "security": "24/7 Surveillance Cameras and Security Personnel",
+      "facilities": {
+        "EVChargingStations": 15,
+        "BikeRacks": true,
+        "CarWash": true
+      },
+      "restrictions": "Max Vehicle Height: 2.2m",
+      "contactInformation": {
+        "phone": "555-707-8080",
+        "email": "contact@harborviewunderground.com"
+      }
+    }
+    // Additional parking facilities would be listed here...
+  ]
+}
